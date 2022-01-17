@@ -11,16 +11,24 @@ function Social() {
         display: "flex",
         padding: "20px",
         justifyContent: "space-between",
-        zIndex:900
+        zIndex: 900,
       }}
     >
       <div className="icons">
-        <a target="_blank" href="https://discord.gg/ninjaapedojo">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://discord.gg/ninjaapedojo"
+        >
           <img src={discord} alt="discord" />
         </a>
       </div>
       <div className="icons">
-        <a target="_blank" href="https://twitter.com/NinjaApeDojo_">
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://twitter.com/NinjaApeDojo_"
+        >
           <img src={twitter} alt="twitter" />
         </a>
       </div>
